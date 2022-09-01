@@ -14,9 +14,9 @@ from pyrogram.raw.functions.messages import UpdatePinnedMessage
 
 bot=Client(
     "Countdown-TeLeTiPs",
-    api_id = int(os.environ["17394955"]),
-    api_hash = os.environ["db6d0a4fedf7c518bc0474bb4d898b30"],
-    bot_token = os.environ["5703784648:AAGQ3QivVcQ7Ym8VrvV1vvW17wo71AZNiZ8"]
+    api_id = int(os.environ[]),
+    api_hash = os.environ[""],
+    bot_token = os.environ[""]
 )
 
 footer_message = os.environ["FOOTER_MESSAGE"]
@@ -29,8 +29,8 @@ TELETIPS_MAIN_MENU_BUTTONS = [
             ],
             [
                 InlineKeyboardButton('👥 SUPPORT', callback_data="GROUP_CALLBACK"),
-                InlineKeyboardButton('📣 CHANNEL', url='https://t.me/solardexofficial'),
-                InlineKeyboardButton('👨‍💻 CREATOR', url='https://t.me/Mudassar303')
+                InlineKeyboardButton('📣 CHANNEL', url=''),
+                InlineKeyboardButton('👨‍💻 CREATOR', url='')
             ],
             [
                 InlineKeyboardButton('➕ CREATE YOUR BOT ➕', callback_data="TUTORIAL_CALLBACK")
